@@ -4,14 +4,23 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Login form</title>
+	<script src="https://kit.fontawesome.com/1d400bc44f.js" crossorigin="anonymous"></script>
 	<style type="text/css">
+		/*-----------nav----------*/
+		nav a{
+			text-decoration: none;
+			color: black;
+		}
+		nav{
+			display: flex;
+			justify-content: space-between;
+		}
+		/*-----------form----------*/
 		.form-container{
 			margin-top: 80px;
 			font-size: 1.2em;
-
 			display: flex;
 			justify-content: center;
-			justify-items: center;
 		}
 		.login-form{
 			display: flex;
@@ -31,6 +40,19 @@
 	</style>
 </head>
 <body>
+	<section>
+		<nav>
+			<span>
+				<a href="">Home</a>
+				<a href="">Dashboard</a>
+				<a href="">Inventory</a>
+			</span>
+			<span>
+				<a href=""><i class="fa-solid fa-user"></i></a>
+				<a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+			</span>
+		</nav>
+	</section>
 	<section class="form-container">
 		<form class="login-form">
 			<h3>Log In</h3>
